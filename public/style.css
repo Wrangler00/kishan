@@ -1,0 +1,135 @@
+html{
+	width: 100%; 
+    height: 100%;
+}
+
+body{
+	padding:0; margin:0;
+	width: 100%; 
+	height: 100%; 
+	overflow: hidden;
+}
+
+.splash {
+	 background: url(./splash-bg.png) no-repeat center center;
+	 background-size: cover;
+	 width:100%;
+	 height:100%;
+	 position:fixed;
+	 top:0;
+	 left:0;
+	 z-index: 6;
+	 text-align: center;
+	 display: inline-table;
+}
+
+.splash-wrapper {
+    /* vertical-align: middle; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 600px;
+    left: 0;
+    right: 0;
+	background: none !important;
+}
+
+.logo {
+    max-width: 370px;
+    margin: 112px auto 15px;
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color:#efebf1;
+}
+
+.wrapper-buttons {
+    margin: 50px 20px;
+    display: inline-block;
+    max-width: 300px;
+}
+
+.btn {
+	padding: 13px 30px;font-family: squarefontregular;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.56);font-size: 24px;
+cursor: pointer;min-width: 193px;max-width: 300px;margin: 0;color: white;clear: both;border:none;border-radius:3px;
+display: inline-block;width: 100%;margin-bottom: 15px;outline: none;position: relative;-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;transition: all 0.3s;    -webkit-appearance: none;
+}
+
+.btn-green {background: #99ca3d;}
+
+.btn-blue {background:#4BC2BC;}
+
+.btn-red {background:#F57E22;}
+
+.btn-red:hover {
+    box-shadow: 0 4px #d73731;
+    top: 2px;
+}
+
+.btn-blue:hover {
+    box-shadow: 0 4px #327c78;
+    top: 2px;
+}
+
+.contacts-List {
+    margin: 25px auto;
+    width: 100%;
+    float: left;
+}
+
+.contacts-List ul {margin: 28px auto;padding: 0;display: block;max-width: 768px;}
+
+.contacts-List ul li {
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 10px 0;
+    border-top: 2px solid #E75F2E;
+    position: relative;
+}
+
+.contacts-List ul li p {
+	text-align: left;
+}
+
+.space {
+    margin: 0 20px;
+}
+
+.godList {
+    position: absolute;
+    background: url(./splash-bg.png) no-repeat center center;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    overflow-y: scroll;
+    text-align: center;
+    margin: auto;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+	background-size: cover;
+}
+
+/*.listGod .logo img{max-width: 75%;}*/
+
+.infoPage{
+    margin: 150px auto;
+    display: inline-block;
+    max-width: 500px;
+}
+
+.infoPage h1,h2 {
+    font-size: 60px;
+    font-family: "Times New Roman";
+    color: orange;
+}
+
+.newMsg{
+    margin:150px auto;
+    display: inline-block;
+    max-width: 500px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contacts App</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="/main.js"></script>
+		<link href="/style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div class="splash" id="splashId">
+			<div class="splash-wrapper" id="splash-wrapperId">
+				<h1 class="logo">Contacts App</h1>
+				<div class="wrapper-buttons" id="wrapper-buttonsId">
+					<button class="btn btn-red" type="button" onclick="firstBtn()">First Tab</button>
+					<button class="btn btn-blue" type="button" onclick="secondBtn()">Second Tab</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="godList" id="godListId" style="display: none;">
+			<div class="contacts-List" id="contacts-ListId">
+				<ul id="contactUlId">
+				</ul>
+			</div>
+			
+			<div class="infoPage" id="infoPageId" style="display: none;">
+				<div id="infoId">
+				</div>
+				<div id="sendMsgId">
+				</div>
+			</div>
+			
+			<div class="newMsg" id="newMsgId" style="display: none;">
+				<form action="/" method="POST" id="msgForm">
+					<input type="text" name="message" placeholder="write message" size="37" style="height:20em;">
+					<button class="btn btn-blue">SEND</button>>
+				</form>
+			</div>
+		</div>
+
+		<div class="godList" id="godListId2" style="display: none;">
+			<div class="contacts-List" id="sent-messageId">
+				<ul id="sentMsgUlId">
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
